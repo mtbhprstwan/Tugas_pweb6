@@ -2,7 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('foto/welpar11.jpeg');
+    background-image: url('./foto/welpar11.jpeg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -16,12 +16,12 @@ body {
 }
 
 .event-card {
-    background-color: rgba(193, 8, 147, 0.95); /* Menggunakan rgba untuk transparansi yang lebih baik */
+    background-color: rgba(193, 8, 147, 0.95); 
     padding: 40px;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     color: #fff;
-    max-width: 400px; /* Batas lebar agar responsif */
+    max-width: 400px; 
     margin-top: -150px;
 }
 
