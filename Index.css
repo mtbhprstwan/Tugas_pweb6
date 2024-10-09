@@ -1,8 +1,5 @@
-
 body {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
     margin: 0;
     padding: 0;
     background-image: url('foto/welpar11.jpeg');
@@ -10,29 +7,26 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    image-rendering: crisp-edges; 
     display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
+    color: #fff;
 }
 
-
-
-.logo {
-    margin-bottom: -100px;
-    margin-top: -100px;
-}
-
-.event-card{
-    margin-top: -150px;
-    background-color: rgb(193, 8, 147);
-    opacity: 95%;
+.event-card {
+    background-color: rgba(193, 8, 147, 0.95); /* Menggunakan rgba untuk transparansi yang lebih baik */
     padding: 40px;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
-    color :aliceblue
+    color: #fff;
+    max-width: 400px; /* Batas lebar agar responsif */
+    margin-top: -150px;
+}
+
+.tanggal, .tempat, .deskripsi {
+    margin: 15px 0;
 }
 
 .hadir {
@@ -40,10 +34,14 @@ body {
     padding: 10px 20px;
     font-weight: 500;
     background-color: #f1ea34;
-    opacity: 100%;
     border: none;
     border-radius: 9px;
     cursor: pointer;
     font-size: 1rem;
     color: black;
+    transition: background-color 0.3s ease; /* Animasi transisi hover */
+}
+
+.hadir:hover {
+    background-color: #d4c529; /* Efek hover */
 }
