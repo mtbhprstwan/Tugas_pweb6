@@ -8,6 +8,9 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
+    background-image: url('img/welpar11.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 .event-invitation {
